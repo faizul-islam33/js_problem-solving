@@ -1,7 +1,11 @@
-var math = 15;
-var bio = 13;
-var chem = 14;
-var phy = 16;
-var bang = 14;
+var math = 75.25;
+var bio = 65;
+var chem = 80;
+var phy = 35.45;
+var bang = 99.50;
 
-console.log((math + bio + chem + phy + bang) / 5);
+var avg = (math + bio + chem + phy + bang) / 5;
+
+avg = avg.toFixed(2);
+
+console.log(avg);
