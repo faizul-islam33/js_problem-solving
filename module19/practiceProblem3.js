@@ -1,16 +1,15 @@
-const arr = [5, 6, 7, 8, 9];
-x = arr.length;
-
-function make_avg(arr, x) {
+function make_avg(array, length) {
     var sum = 0;
-    for (var i = 0; i < x; i++) {
-        sum += i;
+    var array = [10, 10, 12];
+    for (var i = 0; i < length; i++) {
+        sum += array[i];
     }
 
-    const avg = sum / x;
+    var avg = sum / length;
+    avg = avg.toFixed(2);
     return avg;
 }
 
+const avgMark = make_avg([10, 10, 12], 3);
 
-const avgMark = make_avg();
 console.log(avgMark);
