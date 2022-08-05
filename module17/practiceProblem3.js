@@ -23,3 +23,4 @@ if (x == y || x == z || y == z) {
 } else {
     console.log('Not Isosceles');
 }
+
